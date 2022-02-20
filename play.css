@@ -1,0 +1,142 @@
+.iphone-base {
+    width: 320px;
+    height: 680px;
+    border-radius: 20px;
+    background: white;
+    /* border: 1px solid gray; */
+    /* margin-top: 100px; */
+    /* box-shadow: 10px 10px 20px #b8babd, -10px -10px 20px #fff; */
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.return {
+    width: 18px;
+    height: 18px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.middle {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle .circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px #b8babd, -10px -10px 20px #fff;
+}
+
+.middle .volume {
+    width: 250px;
+    height: 50px;
+    /* border: 1px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.middle .volume_icon {
+    cursor: pointer;
+}
+
+.middle .volume input {
+    width: 150px;
+}
+
+.info {
+    margin-top: 25px;
+}
+
+.info h5,
+.info p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+/* input bar */
+
+input[type="range"] {
+    -webkit-appearance: none;
+    outline: none;
+    height: 3px;
+    background: rgb(197, 197, 197);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(145, 16, 16);
+    cursor: pointer;
+}
+
+.interaction {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.interaction button {
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background: white;
+    box-shadow: 5px 5px 20px #b8babd, -5px -5px 20px #fff;
+    margin: 0px 10px;
+}
+
+.interaction button#pre,
+.interaction button#next {
+    height: 60px;
+    width: 60px;
+}
+
+.interaction #play {
+    background: #ff6565;
+}
+
+.interaction #play i {
+    color: white;
+}
+
+.duration {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duration input {
+    width: 200px;
+}

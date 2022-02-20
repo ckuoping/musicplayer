@@ -1,0 +1,103 @@
+[ 
+    { 
+    "name":"ABISTIR® 7145/V0 BIANCO 0317", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ABISTIR® FAB1A17HB BK 0001", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ABISTIR® MR GB/30", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ABISTIR® MR GF/30 NERO", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ABISTIR® MR NERO 8016", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ABISTIR® UG BIANCO 0071", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ABISTIR® UG UV NERO X2", 
+    "home":"Celanese", 
+    "type":"ABS" 
+    }, 
+    { 
+    "name":"ACRYMID® TT50", 
+    "home":"Röhm", 
+    "type":"PMMI" 
+    }, 
+    { 
+    "name":"ACRYMID® TT70", 
+    "home":"Röhm", 
+    "type":"PMMI" 
+    }, 
+    { 
+    "name":"Akulon® 6-D", 
+    "home":"DSM", 
+    "type":"PA6" 
+    }, 
+    { 
+    "name":"Akulon® CO-KGV4/A JN.00.86", 
+    "home":"DSM", 
+    "type":"PA6-GF20 FR" 
+    }, 
+    { 
+    "name":"Akulon® Diablo HDT2500 BK00001", 
+    "home":"DSM", 
+    "type":"(PA66+PA6)-GF35" 
+    }, 
+    { 
+    "name":"Akulon® Diablo HDT2504BM (K-X08203", 
+    "home":"DSM", 
+    "type":"(PA66+PA6)-GF20" 
+    }, 
+    { 
+    "name":"Akulon® Diablo HDT2505BM (K-X08202", 
+    "home":"DSM", 
+    "type":"(PA66+PA6)-GF25" 
+    }, 
+    { 
+    "name":"Akulon® Diablo HT-HG0", 
+    "home":"DSM", 
+    "type":"(PA66+PA6)-GF50" 
+    }, 
+    { 
+    "name":"Akulon® Diablo HT-HG6", 
+    "home":"DSM", 
+    "type":"(PA66+PA6)-GF30" 
+    }, 
+    { 
+    "name":"Akulon® F-X08124", 
+    "home":"DSM", 
+    "type":"PA6" 
+    }, 
+    { 
+    "name":"Akulon® F-X9171", 
+    "home":"DSM", 
+    "type":"PA6" 
+    }, 
+    { 
+    "name":"Akulon® F-X9182", 
+    "home":"DSM", 
+    "type":"PA6" 
+    }, 
+    { 
+    "name":"Akulon® F-X9190", 
+    "home":"DSM", 
+    "type":"PA6" 
+    }
+         
+]

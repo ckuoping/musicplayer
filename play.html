@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Player</title>
+    <!-- bootstrape -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- owlcaroul js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- private css -->
+    <link rel="stylesheet" href="./play.css">
+</head>
+
+<body>
+    <!-- iphone  -->
+    <div class="iphone-base">
+        <div class="return">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="middle">
+            <div class="circle">
+                <img src="./image/CD.png" width="180px" height="180px" alt="">
+            </div>
+            <div class="volume">
+                <div id="volume_icon" onclick="mute_sound()"><i class="fas fa-volume-down" style="font-size: 24px;"></i></div>
+                <input id="volume_control" type="range" min="0" max="100" value="90" onchange="volume_change()">
+                <p id="volume_show" style="margin-bottom: 0px;">90</p>
+            </div>
+        </div>
+        <div class="info">
+            <h5 id="title">Drifting Forever</h5>
+            <p id="artist">Ryan Jones</p>
+        </div>
+        <div class="interaction">
+            <button id="pre" onclick="previous_song()"><i class="fas fa-step-backward"></i></button>
+            <button id="play" onclick="just_play()"><i class="fas fa-play"></i></button>
+            <button id="next" onclick="next_song()"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="duration">
+            <input id="duration_slider" type="range" min="0" max="100" value="0" onchange="change_duration()">
+        </div>
+
+
+    </div>
+
+
+
+    <!-- jquery.min.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- private js -->
+    <script src="./play.js"></script>
+    <script type="text/javascript" src="./vanilla-tilt.js"></script>
+</body>
+
+</html>

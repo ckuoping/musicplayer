@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(233, 233, 233);
+}
+
+
+/* remove border which cuts off shadow of cover */
+
+
+/* https://stackoverflow.com/questions/48321377/box-shadow-on-items-in-owl-carousel-being-cut-off */
+
+.owl-stage {
+    margin: 20px 0px;
+    overflow: visible;
+}
+
+
+/* remove owl-dots area */
+
+.owl-dots {
+    display: none;
+}
+
+.iphone-wrapper {
+    width: 320px;
+    height: 680px;
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 20px #b8babd, -10px -10px 20px #fff;
+    position: relative;
+    overflow: hidden;
+    /* background: #494848; */
+}
+
+.iphone {
+    width: 320px;
+    height: 680px;
+    border-radius: 20px;
+    background: white;
+    /* border: 1px solid gray; */
+    /* margin-top: 100px; */
+    /* box-shadow: 10px 10px 20px #b8babd, -10px -10px 20px #fff; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.shadow-for-iphone {
+    box-shadow: 2px 0px 20px rgba(128, 128, 128, 0.582);
+}
+
+.iphone h4 {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.cover {
+    width: 150px;
+    height: 220px;
+    border-radius: 20px;
+    /* box-shadow: 1px 0px 10px black; */
+    box-shadow: 0px 0px 2px #494848, 0px 0px 0px 5px #ffffff, 4px 4px 8px #5d5e5f, -4px 4px 8px #fff;
+}
+
+.cover-1 {
+    background-image: url('./image/cover1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-2 {
+    background-image: url('./image/cover2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-3 {
+    background-image: url('./image/cover3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.songs {
+    width: 100%;
+    height: 290px;
+    /* border: 1px solid red; */
+    padding: 5px 30px;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.song-left {
+    display: flex;
+    align-items: center;
+}
+
+.song-right {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px #cbced1, -3px -3px 10px #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.songs .song-left .song-img {
+    width: 45px;
+    height: 45px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px #cbced1, -3px -3px 10px #fff;
+    /* box-shadow: 1px 1px 8px rgb(153, 153, 153); */
+}
+
+.songs .song-left .song-txt h6,
+.songs .song-left .song-txt p {
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
